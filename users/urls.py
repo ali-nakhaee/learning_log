@@ -4,6 +4,6 @@ from django.urls import path, include
 
 app_name = 'users'
 urlpatterns = [
-    # Include defualt auth urls.
+    # Include default auth urls.
     path('', include('django.contrib.auth.urls')),
 ]
