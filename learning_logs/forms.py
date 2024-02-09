@@ -13,5 +13,5 @@ class EntryForm(forms.ModelForm):
     class Meta:
         model = Entry
         fields = ['text', 'hashtag']
-        labels = {'text': 'Entry:'}
+        labels = {'text':'Entry:', 'hashtag':'tag:'}
         widgets = {'text': forms.Textarea(attrs={'cols': 80})}
